@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+.bggg{
+   color: #ffffff; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .first {
+    text-align: center;
+    padding: 80px 16px 48px;
+  }
+  .first p {
+    margin-top:8px;
+    color: #555;
+  }
+  .btn1 {
+    margin-top: 24;
+    padding: 15px 32px ;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .btn1:hover {
+    background-color: #c22f3c;
+  }
+  .features {
+    width: 90%;
+    max-width: 1100px;
+    margin: 32px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+  }
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  .feature .text {
+    flex: 1;
+  }
+  .feature .text h2 {
+    color: #111;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 13px;
+  }
+  .feature .text p {
+    color: #555;
+    font-size: 20px;
+  }
+  .feature .image {
+   flex: 1;
+    text-align: center;
+  }
+  .feature .image img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  
+  .aside-section {
+    text-align: center;
+    padding: 80px 16px 48px;
+  }
+  
+  .aside-section h2 {
+    font-size: 32px;
+    margin-bottom: 48px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+    max-width: 1100px;
+    margin: 0 auto 64px;
+  }
+  
+  .item {
+    text-align: center;
+    padding: 24px;
+  }
+  
+  .item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 16px;
+  
+  }
+  
+  .item h3 {
+    color: #e63946;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 9.6px;
+  }
+  
+  .item p {
+    color: #555;
+    font-size: 15.2px;
+    line-height: 1.5;
+  }
+  
+  .become {
+    margin-top: 32px;
+  }
+  
+  .become h3 {
+    color: #111;
+    font-size: 21px;
+    margin-bottom: 16px;
+  }
+  
+  .Become-btn{
+    margin-top: 24;
+    padding: 15px 32px ;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+ 
+  .footer {
+    text-align: center;
+    padding: 32px 16px;
+    border-top: 1px solid #eee;
+    color: #666;
+    background-color: #fff;
+  }
+  
+  .footer-logo img {
+    width: 200px;
+    margin-bottom: 13px;
+  }
+  
+  .footer .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 13;
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .footer-links {
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  
+  .footer-links a {
+    color: #e63946;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+ 
+  @media (max-width: 900px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .item h3 {
+      font-size: 16px;
+    }
+  
+    .aside-section h2 {
+      font-size: 26;
+    }
+  }
+  
+
+
+
+
+
+
+
+  @media (max-width: 900px) {
+    .feature {
+      flex-direction: column;
+      text-align: center;
+    }
+    .feature.reverse {
+      flex-direction: column-reverse;
+    }
+    .feature .text h2 {
+      font-size: 21px;
+    }
+    .feature .text p {
+      font-size: 15px;
+    }
+  }
+  @media (max-width: 600px) {
+    .first h1 {
+      font-size: 28px;
+    }
+    .btn1 {
+      width: 80%;
+      font-size: 15px;
+    }
+    .features {
+      width: 95%;
+    }
+  }
